@@ -70,7 +70,7 @@ async function main() {
         '-v',
         `${join(__dirname, 'config')}:/config:ro`,
         '-p',
-        '9080:9080',
+        '1080:1080',
         TROJAN_DOCKER_IMAGE,
         'trojan',
         '-c',
